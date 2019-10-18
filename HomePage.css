@@ -1,0 +1,178 @@
+html {
+    margin: 0;
+}
+body {
+    background: #0a0429;
+    margin: 0;
+    font-family: 'Acme', sans-serif;
+}
+.container {
+    margin: 2% auto;
+    width: 90%;
+}
+.header {
+    background: #ccc;
+    padding: 15px;
+    height: 75vh;
+    border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title-text {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgba(84, 62, 142, 1);
+    font-size: 20px;
+    margin: 3px;
+}
+
+#title-name {
+    margin: 0;
+    font-family: 'Squada One', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(44, 11, 68);
+    font-size: 40px;
+    margin: 15px;
+}
+
+#title-subtitle {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: rgba(84, 62, 142, 1);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+span#title-profession {
+    color: rgb(44, 11, 68);
+}
+
+main {
+    margin-top: 25px;
+}
+.section-head {
+    background-color: rgb(6, 6, 17);
+    padding: 15px;
+    border-radius: 4px 4px 0 0;
+    color: #ccc;
+}
+#myintro-text {
+    font-family: 'PT Sans', sans-serif;
+    background: #ccc;
+    padding: 25px;
+    border-radius: 0 0 4px 4px;
+    line-height: 25px;
+    color: #24305E;
+}
+.card {
+    border-radius: 4px;
+    background: rgb(163, 169, 175);
+    color: #0f123a;
+    /* font-weight: bold; */
+    text-align: center;
+    margin: 15px;
+    padding: 40px;
+    font-family: 'Carter One', cursive;
+}
+#myskills-container {
+    padding: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 0 0 4px 4px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#myintro, #myskills, #myprojects {
+    margin: 25px 0;
+}
+#projects-container {
+    background-color: rgb(15, 11, 39);
+}
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 85%; */
+    justify-content: center;
+    margin: 0 auto;
+}
+.project-item {
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 15px;
+    width: 25%;
+    margin: 15px;
+    border-radius: 4px;
+}
+.project-item:hover {
+    background-color: white;
+}
+
+footer {
+    font-family: 'Squada One', cursive;
+    margin-top: 25px;
+    background: white;
+    color: #02011b;
+    padding: 10px;
+}
+#contact-title {
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Media Queries */
+
+/* Max 750px */
+@media screen and (max-width: 750px) {
+    .project-item {
+        width: 100%;
+    }
+}
+
+/* Min 751px */
+@media screen and (min-width: 751px) {
+    .project-item {
+        width: 40%;
+        margin: 10px;
+    }
+}
+
+
+/*
+Colors:: 
+
+Dark Gray:
+    #17252A
+
+Violet:
+    #24305E  #22140  #022140
+
+Brown:
+    #222629   #19181A  #2E1114  #1A1A1D
+
+Gray:
+    #46344
+
+
+/*
+
+
+/*
+Fonts:: 
+
+font-family: 'PT Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Passion One', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Squada One', cursive;
+font-family: 'Carter One', cursive;
+
+*/
