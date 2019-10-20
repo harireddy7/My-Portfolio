@@ -3,7 +3,8 @@ html, body {
 }
 .container-fluid {
     font-family: 'Acme', sans-serif;
-    margin: 20px;
+    margin: 0;
+    padding: 0 !important ;
 }
 header {
     text-align: center;
@@ -16,13 +17,15 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0;
 }
 
 #title-text {
     font-family: 'Carter One', cursive;
     text-align: center;
     letter-spacing: 5px;
-    color: rgba(84, 62, 142, 1);
+    color: #e6e3efa6;
+    /* color: rgba(84, 62, 142, 1); */
     font-size: 20px;
     margin: 3px;
 }
@@ -32,7 +35,8 @@ header {
     font-family: 'Squada One', cursive;
     letter-spacing: 3px;
     text-align: center;
-    color: rgb(44, 11, 68);
+    color: #62ce79ab;
+    /* color: rgb(44, 11, 68); */
     font-size: 40px;
     margin: 15px;
 }
@@ -40,12 +44,19 @@ header {
 #title-subtitle {
     font-family: 'Acme', sans-serif;
     text-align: center;
-    color: rgba(84, 62, 142, 1);
+    /* color: rgba(84, 62, 142, 1); */
+    color: #cbd0b2ad;
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: bold;
 }
+#title-profession {
+    color: #4a9c60;
+}
 
+#main-content {
+    padding: 15px;
+}
 
 #intro, #about-me , #skills, #projects, #contact-footer {
     margin-top: 20px;
