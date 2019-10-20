@@ -1,0 +1,162 @@
+html, body {
+    margin: 0;
+}
+.container-fluid {
+    font-family: 'Acme', sans-serif;
+    margin: 20px;
+}
+header {
+    text-align: center;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background: url('./Images/n1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#title-text {
+    font-family: 'Carter One', cursive;
+    text-align: center;
+    letter-spacing: 5px;
+    color: rgba(84, 62, 142, 1);
+    font-size: 20px;
+    margin: 3px;
+}
+
+#title-name {
+    margin: 0;
+    font-family: 'Squada One', cursive;
+    letter-spacing: 3px;
+    text-align: center;
+    color: rgb(44, 11, 68);
+    font-size: 40px;
+    margin: 15px;
+}
+
+#title-subtitle {
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    color: rgba(84, 62, 142, 1);
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+#intro, #about-me , #skills, #projects, #contact-footer {
+    margin-top: 20px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+.card .card-header {
+    background-color: rgb(8, 8, 31);
+    color: #ccc;
+}
+#intro .card-body {
+    background-color: #fffef4;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Skills */
+
+
+#skill-list {
+    display: flex;
+    justify-content: space-around;
+}
+.card.skill-item {
+    background-color: #fffef4;
+    padding: 15px;
+    text-align: center;
+    width: 100px;
+    border: 0;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+/* Projects */
+
+#projects-list {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#projects-list .project-item {
+    width: 48%;
+    margin: 5px;
+    font-family: 'Squada One', cursive;
+    /* box-shadow: 0.5px 0.5px 15px -8px #000; */
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    cursor: pointer;
+}
+.project-link {
+    margin-top: 5px;
+}
+span.linktext {
+    color: indigo;
+}
+.project-item:hover {
+    transform: scale(1.025);
+}
+
+/* footer */
+
+footer.container-fluid {
+    background: #112233;
+    color: #ccc;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#contact-title {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+#contact-list {
+    display: flex;
+    padding: 0px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contact-item {
+    margin: 10px auto;
+    width: 250px;
+    text-align: center;
+}
+.contact-item .card {
+    height: 232px;
+}
+.contact-item .card-title {
+    color: #a0a2a5;
+}
+.contact-item .card-text {
+    color: #0d233a;
+}
+
+.icon-round {
+    margin: 0 auto;
+    border-radius: 50% 50%;
+    background: #0d233a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+#copyright-text {
+    color: #ffffff4a;
+    text-align: center;
+}
+
+#about-me {
+    display: flex;
+    border-radius: 5px;
+}
