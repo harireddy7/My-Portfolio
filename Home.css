@@ -114,6 +114,9 @@ span.linktext {
 .project-item:hover {
     transform: scale(1.025);
 }
+.project-title {
+    color: indigo;
+}
 
 /* footer */
 
